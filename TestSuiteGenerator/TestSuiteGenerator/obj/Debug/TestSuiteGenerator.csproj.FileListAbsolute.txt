@@ -1,0 +1,17 @@
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.CleanupQueries.resources
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.MDIParent1.resources
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.Messages.resources
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.Properties.Resources.resources
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.StaticCheck.resources
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.TableCheck.resources
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\bin\Debug\TestSuiteGenerator.exe.config
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\bin\Debug\TestCaseDB.sdf
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\bin\Debug\TestSuiteGenerator.exe
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\bin\Debug\TestSuiteGenerator.pdb
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.exe
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.pdb
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.TCGenerator.resources
+C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.QueryTestCaseFrm.resources
