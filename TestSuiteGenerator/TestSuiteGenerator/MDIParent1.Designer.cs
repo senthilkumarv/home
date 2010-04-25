@@ -30,17 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MDIParent1));
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Table Check");
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("Static Check");
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Query");
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Messages");
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("TestCases");
-            System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("TestSuite", new System.Windows.Forms.TreeNode[] {
-            treeNode7,
-            treeNode8,
-            treeNode9,
-            treeNode10,
-            treeNode11});
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Table Check");
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Static Check");
+            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Query");
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Messages");
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("TestCases");
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("TestSuite", new System.Windows.Forms.TreeNode[] {
+            treeNode1,
+            treeNode2,
+            treeNode3,
+            treeNode4,
+            treeNode5});
             this.tableCheckMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.addTableToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.staticCheckMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
@@ -672,26 +672,26 @@
             this.testSuite.Dock = System.Windows.Forms.DockStyle.Fill;
             this.testSuite.Location = new System.Drawing.Point(0, 0);
             this.testSuite.Name = "testSuite";
-            treeNode7.ContextMenuStrip = this.tableCheckMenu;
-            treeNode7.Name = "tableCheck";
-            treeNode7.Text = "Table Check";
-            treeNode8.ContextMenuStrip = this.staticCheckMenu;
-            treeNode8.Name = "staticCheck";
-            treeNode8.Text = "Static Check";
-            treeNode9.ContextMenuStrip = this.setupMenu;
-            treeNode9.Name = "setup";
-            treeNode9.Text = "Query";
-            treeNode10.ContextMenuStrip = this.messagesMenu;
-            treeNode10.Name = "messages";
-            treeNode10.Text = "Messages";
-            treeNode11.ContextMenuStrip = this.contextMenuStrip1;
-            treeNode11.Name = "testCases";
-            treeNode11.Text = "TestCases";
-            treeNode12.Checked = true;
-            treeNode12.Name = "testSuite";
-            treeNode12.Text = "TestSuite";
+            treeNode1.ContextMenuStrip = this.tableCheckMenu;
+            treeNode1.Name = "tableCheck";
+            treeNode1.Text = "Table Check";
+            treeNode2.ContextMenuStrip = this.staticCheckMenu;
+            treeNode2.Name = "staticCheck";
+            treeNode2.Text = "Static Check";
+            treeNode3.ContextMenuStrip = this.setupMenu;
+            treeNode3.Name = "setup";
+            treeNode3.Text = "Query";
+            treeNode4.ContextMenuStrip = this.messagesMenu;
+            treeNode4.Name = "messages";
+            treeNode4.Text = "Messages";
+            treeNode5.ContextMenuStrip = this.contextMenuStrip1;
+            treeNode5.Name = "testCases";
+            treeNode5.Text = "TestCases";
+            treeNode6.Checked = true;
+            treeNode6.Name = "testSuite";
+            treeNode6.Text = "TestSuite";
             this.testSuite.Nodes.AddRange(new System.Windows.Forms.TreeNode[] {
-            treeNode12});
+            treeNode6});
             this.testSuite.Size = new System.Drawing.Size(210, 382);
             this.testSuite.TabIndex = 3;
             this.testSuite.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.testSuite_AfterSelect);
@@ -714,7 +714,7 @@
             this.IsMdiContainer = true;
             this.MainMenuStrip = this.menuStrip;
             this.Name = "MDIParent1";
-            this.Text = "MDIParent1";
+            this.Text = "TestSuite Generator";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.MDIParent1_Load);
             this.tableCheckMenu.ResumeLayout(false);

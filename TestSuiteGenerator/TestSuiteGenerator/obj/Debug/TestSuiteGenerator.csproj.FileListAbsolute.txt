@@ -15,3 +15,6 @@ C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debu
 C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.pdb
 C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.TCGenerator.resources
 C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.QueryTestCaseFrm.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\bin\Debug\TestSuiteGenerator.exe.config
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.exe
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.pdb
