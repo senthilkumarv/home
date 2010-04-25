@@ -17,6 +17,7 @@ namespace TestSuiteGenerator
         {
             InitializeComponent();
         }
+        
 
         private void ShowNewForm(object sender, EventArgs e)
         {
@@ -196,13 +197,14 @@ namespace TestSuiteGenerator
                 t.Remove();
             }
             Table[] tables = TestSuiteDB.getTables();
-            if (tables == null) return;
-            foreach (Table t in tables)
+            if (tables != null)
             {
-                if (t == null) continue;
-                node.Nodes.Add(t.TableName);
+                foreach (Table t in tables)
+                {
+                    if (t == null) continue;
+                    node.Nodes.Add(t.TableName);
+                }
             }
-
             node = testSuite.Nodes[0].Nodes[4];
             foreach (TreeNode t in node.Nodes)
             {

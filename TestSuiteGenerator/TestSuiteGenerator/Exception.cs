@@ -39,9 +39,9 @@ namespace TestSuiteGenerator
             get { return type; }
             set { type = value; }
         }
-        int count;
+        string count;
 
-        public int Count
+        public string Count
         {
             get { return count; }
             set { count = value; }
@@ -53,9 +53,9 @@ namespace TestSuiteGenerator
             get { return statement; }
             set { statement = value; }
         }
-        int score;
+        string score;
 
-        public int Score
+        public string Score
         {
             get { return score; }
             set { score = value; }

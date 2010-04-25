@@ -33,6 +33,10 @@
             this.txtFileName = new System.Windows.Forms.TextBox();
             this.txtMaxScores = new System.Windows.Forms.TextBox();
             this.dgVars = new System.Windows.Forms.DataGridView();
+            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colDataType = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colErr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.dgStmts = new System.Windows.Forms.DataGridView();
@@ -41,17 +45,13 @@
             this.colErrMsg = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label5 = new System.Windows.Forms.Label();
             this.dgExceptions = new System.Windows.Forms.DataGridView();
-            this.btnAdd = new System.Windows.Forms.Button();
-            this.btnCancel = new System.Windows.Forms.Button();
-            this.colName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colDataType = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.colScore = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colErr = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colType1 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.colCount = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colStatement = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colScore2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.colErr2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgVars)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgStmts)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgExceptions)).BeginInit();
@@ -101,6 +101,30 @@
             this.dgVars.Name = "dgVars";
             this.dgVars.Size = new System.Drawing.Size(443, 111);
             this.dgVars.TabIndex = 4;
+            // 
+            // colName
+            // 
+            this.colName.HeaderText = "Name";
+            this.colName.Name = "colName";
+            // 
+            // colDataType
+            // 
+            this.colDataType.HeaderText = "DataType";
+            this.colDataType.Items.AddRange(new object[] {
+            "VARCHAR2",
+            "NUMBER",
+            "DATE"});
+            this.colDataType.Name = "colDataType";
+            // 
+            // colScore
+            // 
+            this.colScore.HeaderText = "Score";
+            this.colScore.Name = "colScore";
+            // 
+            // colErr
+            // 
+            this.colErr.HeaderText = "Error Message";
+            this.colErr.Name = "colErr";
             // 
             // label3
             // 
@@ -170,49 +194,6 @@
             this.dgExceptions.Size = new System.Drawing.Size(548, 150);
             this.dgExceptions.TabIndex = 9;
             // 
-            // btnAdd
-            // 
-            this.btnAdd.Location = new System.Drawing.Point(137, 599);
-            this.btnAdd.Name = "btnAdd";
-            this.btnAdd.Size = new System.Drawing.Size(119, 33);
-            this.btnAdd.TabIndex = 10;
-            this.btnAdd.Text = "Add Static Check";
-            this.btnAdd.UseVisualStyleBackColor = true;
-            this.btnAdd.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnCancel
-            // 
-            this.btnCancel.Location = new System.Drawing.Point(301, 599);
-            this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(127, 33);
-            this.btnCancel.TabIndex = 11;
-            this.btnCancel.Text = "Cancel";
-            this.btnCancel.UseVisualStyleBackColor = true;
-            // 
-            // colName
-            // 
-            this.colName.HeaderText = "Name";
-            this.colName.Name = "colName";
-            // 
-            // colDataType
-            // 
-            this.colDataType.HeaderText = "DataType";
-            this.colDataType.Items.AddRange(new object[] {
-            "VARCHAR2",
-            "NUMBER",
-            "DATE"});
-            this.colDataType.Name = "colDataType";
-            // 
-            // colScore
-            // 
-            this.colScore.HeaderText = "Score";
-            this.colScore.Name = "colScore";
-            // 
-            // colErr
-            // 
-            this.colErr.HeaderText = "Error Message";
-            this.colErr.Name = "colErr";
-            // 
             // colType1
             // 
             this.colType1.HeaderText = "Type";
@@ -244,6 +225,26 @@
             // 
             this.colErr2.HeaderText = "Error Message Text";
             this.colErr2.Name = "colErr2";
+            // 
+            // btnAdd
+            // 
+            this.btnAdd.Location = new System.Drawing.Point(137, 599);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(119, 33);
+            this.btnAdd.TabIndex = 10;
+            this.btnAdd.Text = "Add Static Check";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // btnCancel
+            // 
+            this.btnCancel.Location = new System.Drawing.Point(301, 599);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(127, 33);
+            this.btnCancel.TabIndex = 11;
+            this.btnCancel.Text = "Cancel";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // StaticCheck
             // 

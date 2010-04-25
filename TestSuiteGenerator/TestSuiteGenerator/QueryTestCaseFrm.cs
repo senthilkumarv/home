@@ -25,5 +25,10 @@ namespace TestSuiteGenerator
             qtc.ErrMsg = txtErrMsg.Text;
             TestSuiteDB.saveQueryTestCase(qtc);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }

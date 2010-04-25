@@ -43,10 +43,34 @@ namespace TestSuiteGenerator
             set { outputs = value; }
         }
 
+        Query[] setup;
+
+        internal Query[] Setup
+        {
+            get { return setup; }
+            set { setup = value; }
+        }
+        Query[] cleanup;
+
+        internal Query[] Cleanup
+        {
+            get { return cleanup; }
+            set { cleanup = value; }
+        }
+
         public override string ToString()
         {
             string str = "";
             str = "<testcase maxscore = \"" + maxScore + "\">\n";
+            str += "<setup>\n";
+            if (setup != null)
+            {
+                foreach(Query q in setup){
+                    if(q != null)
+                        str += q.ToString();
+                }
+            }
+            str += "</setup>\n";
             str += "<execute type=\"plsql\" filename=\"" + fileName + "\">\n";
             str += "<input>\n";
             if (inputs != null)
@@ -69,6 +93,16 @@ namespace TestSuiteGenerator
             }
             str += "</output>\n";
             str += "</execute>\n";
+            str += "<cleanup>\n";
+            if (cleanup != null)
+            {
+                foreach (Query q in cleanup)
+                {
+                    if (q != null)
+                        str += q.ToString();
+                }
+            }
+            str += "</cleanup>\n";
             str += "</testcase>\n";
             return str;
         }

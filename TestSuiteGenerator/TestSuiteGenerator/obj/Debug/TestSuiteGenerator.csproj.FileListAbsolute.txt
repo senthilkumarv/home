@@ -18,3 +18,16 @@ C:\Users\SenthilKumar_V04\Desktop\TestSuiteGenerator\TestSuiteGenerator\obj\Debu
 D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\bin\Debug\TestSuiteGenerator.exe.config
 D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.exe
 D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.pdb
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\bin\Debug\TestSuiteGenerator.exe
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\bin\Debug\TestSuiteGenerator.pdb
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\ResolveAssemblyReference.cache
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.MDIParent1.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.Messages.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.Properties.Resources.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.QueryTestCaseFrm.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.CleanupQueries.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.StaticCheck.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.TableCheck.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\TestSuiteGenerator.TCGenerator.resources
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Senthil\home\TestSuiteGenerator\TestSuiteGenerator\obj\Debug\GenerateResource-ResGen.write.1.tlog

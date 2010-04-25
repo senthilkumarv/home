@@ -30,7 +30,7 @@ namespace TestSuiteGenerator
         public static void saveQueryTestCase(QueryTestCase qtc)
         {
             if (queryTests == null) queryTests = new QueryTestCase[10];
-            queryTests[plTestCount] = qtc;
+            queryTests[queryTestCount] = qtc;
             queryTestCount++;
         }
         public static void savePLTestCase(PLTestCase ptc)

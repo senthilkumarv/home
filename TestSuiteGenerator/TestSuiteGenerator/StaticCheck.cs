@@ -21,7 +21,7 @@ namespace TestSuiteGenerator
             StaticTest test = new StaticTest();
 
             test.FileName = txtFileName.Text;
-            test.MaxScores = Int32.Parse(txtMaxScores.Text);
+            test.MaxScores = txtMaxScores.Text;
             Variable[] vars = new Variable[dgVars.Rows.Count];
             int cnt = 0;
             foreach (DataGridViewRow dgvr in dgVars.Rows)
@@ -47,7 +47,7 @@ namespace TestSuiteGenerator
                 {
                     stmts[cnt] = new Statement();
                     stmts[cnt].Type = type;
-                    stmts[cnt].Score = Int32.Parse(dgvr.Cells[1].Value + "");
+                    stmts[cnt].Score = dgvr.Cells[1].Value + "";
                     stmts[cnt].ErrMsg = dgvr.Cells[2].Value + "";
                     cnt++;
                 }
@@ -63,15 +63,20 @@ namespace TestSuiteGenerator
                 {
                     checks[cnt] = new Check();
                     checks[cnt].Type = type;
-                    checks[cnt].Count = Int32.Parse(dgvr.Cells[1].Value + "");
+                    checks[cnt].Count = dgvr.Cells[1].Value + "";
                     checks[cnt].Statement = dgvr.Cells[2].Value + "";
-                    checks[cnt].Score = Int32.Parse(dgvr.Cells[3].Value + "");
+                    checks[cnt].Score = dgvr.Cells[3].Value + "";
                     checks[cnt].ErrMsg = dgvr.Cells[4].Value + "";
                 }
             }
             ex.Checks = checks;
             test.Ex = new Exceptions[] { ex };
             TestSuiteDB.saveStaticTest(test);
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

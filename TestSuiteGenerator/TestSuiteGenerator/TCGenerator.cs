@@ -14,6 +14,7 @@ namespace TestSuiteGenerator
         public TCGenerator()
         {
             InitializeComponent();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -53,10 +54,44 @@ namespace TestSuiteGenerator
                 cnt++;
             }
             ptc.Outputs = otcp;
-
             ptc.Type = "plsql";
-
+            
+            Query []setup = new Query[tbSetup.Lines.Length];
+            cnt =0;
+            string[] setupstr = tbSetup.Lines;
+            if (setupstr != null)
+            {
+                if (setupstr.Length > 0)
+                {
+                    foreach (string str in setupstr)
+                    {
+                        if(str != null)
+                            setup[cnt++] = new Query(str);
+                    }
+                }
+            }
+            ptc.Setup = setup;
+            Query []cleanup = new Query[tbCleanup.Lines.Length];
+            cnt =0;
+            string[] cleanupstr = tbCleanup.Lines;
+            if (cleanupstr != null)
+            {
+                if (cleanupstr.Length > 0)
+                {
+                    foreach (string str in cleanupstr)
+                    {
+                        if(str != null)
+                            cleanup[cnt++] = new Query(str);
+                    }
+                }
+            }
+            ptc.Cleanup = cleanup;
             TestSuiteDB.savePLTestCase(ptc);
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
     }
 }

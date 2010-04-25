@@ -15,9 +15,9 @@ namespace TestSuiteGenerator
             set { type = value; }
         }
 
-        int score;
+        string score;
 
-        public int Score
+        public string Score
         {
             get { return score; }
             set { score = value; }

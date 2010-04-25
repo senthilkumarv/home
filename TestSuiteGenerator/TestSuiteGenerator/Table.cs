@@ -15,9 +15,9 @@ namespace TestSuiteGenerator
             set { tableName = value; }
         }
         
-        int maxScores;
+        string maxScores;
 
-        public int MaxScores
+        public string MaxScores
         {
             get { return maxScores; }
             set { maxScores = value; }

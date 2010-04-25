@@ -20,7 +20,7 @@ namespace TestSuiteGenerator
         {
             Table table = new Table();
             table.TableName = txtTableName.Text;
-            table.MaxScores = (int)spnScore.Value;
+            table.MaxScores = spnScore.Value + "";
 
             TableColumn[] cols = new TableColumn[dgTable.Rows.Count];
             int cnt = 0;
@@ -45,6 +45,11 @@ namespace TestSuiteGenerator
         private void TableCheck_Load(object sender, EventArgs e)
         {
             spnScore.Value = 30;
+        }
+
+        private void btnCancel_Click(object sender, EventArgs e)
+        {
+            this.Hide();
         }
 
     }

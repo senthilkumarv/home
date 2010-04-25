@@ -7,6 +7,15 @@ namespace TestSuiteGenerator
 {
     class Query
     {
+        public Query()
+        {
+        }
+
+        public Query(string str)
+        {
+            this.text = str;
+        }
+
         string text;
 
         public string Text

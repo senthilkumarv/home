@@ -54,6 +54,11 @@ namespace TestSuiteGenerator
         {
             label1.Text = type + " Queries";
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+        }
     }
 }
 
