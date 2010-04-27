@@ -48,6 +48,8 @@ namespace TestSuiteGenerator
                 TestSuiteDB.saveSetupQueries(queries);
             else
                 TestSuiteDB.saveCleanupQueries(queries);
+            MessageBox.Show(Type + " Queries Saved Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
         }
 
         private void CleanupQueries_Load(object sender, EventArgs e)

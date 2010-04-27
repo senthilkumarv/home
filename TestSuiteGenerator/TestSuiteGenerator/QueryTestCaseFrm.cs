@@ -24,6 +24,8 @@ namespace TestSuiteGenerator
             qtc.FileName = txtFileName.Text;
             qtc.ErrMsg = txtErrMsg.Text;
             TestSuiteDB.saveQueryTestCase(qtc);
+            MessageBox.Show("Query TestCase Saved Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)

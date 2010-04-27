@@ -33,6 +33,8 @@ namespace TestSuiteGenerator
                 }
             }
             TestSuiteDB.saveMessages(msgs);
+            MessageBox.Show("Messages Saved Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
