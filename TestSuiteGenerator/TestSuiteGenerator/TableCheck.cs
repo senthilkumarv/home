@@ -39,7 +39,8 @@ namespace TestSuiteGenerator
 
             table.Cols = cols;
             TestSuiteDB.saveTable(table);
-            
+            MessageBox.Show("Table Details Saved Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
         }
 
         private void TableCheck_Load(object sender, EventArgs e)

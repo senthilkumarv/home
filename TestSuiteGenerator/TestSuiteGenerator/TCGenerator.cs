@@ -87,6 +87,8 @@ namespace TestSuiteGenerator
             }
             ptc.Cleanup = cleanup;
             TestSuiteDB.savePLTestCase(ptc);
+            MessageBox.Show("PL/SQL TestCase Saved Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)

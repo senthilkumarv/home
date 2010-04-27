@@ -72,6 +72,8 @@ namespace TestSuiteGenerator
             ex.Checks = checks;
             test.Ex = new Exceptions[] { ex };
             TestSuiteDB.saveStaticTest(test);
+            MessageBox.Show("Static Check Saved Successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            this.Hide();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
